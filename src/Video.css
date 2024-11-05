@@ -1,0 +1,132 @@
+/* Video.css */
+.video-container {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between; /* Space between buttons */
+  margin-bottom: 20px; /* Space below button group */
+}
+
+.action-button {
+  padding: 12px 20px; /* Padding for buttons */
+  font-size: 1em; /* Font size */
+  color: white; /* Text color */
+  background-color: #007bff; /* Button color */
+  border: none; /* Remove border */
+  border-radius: 25px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background 0.3s, transform 0.2s; /* Smooth background transition */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Subtle shadow */
+  margin-right: 10px; /* Space between buttons */
+}
+
+.action-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.videos-table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 20px; /* Space above the table */
+}
+
+.videos-table th, .videos-table td {
+  border: 1px solid #dee2e6; /* Border for table cells */
+  padding: 12px; /* Padding for table cells */
+  text-align: left; /* Align text to the left */
+}
+
+.videos-table th {
+  background-color: #007bff; /* Header background color */
+  color: white; /* Header text color */
+}
+
+.videos-table tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.comment-button {
+  padding: 8px 12px;
+  background-color: #28a745; /* Green color for comments */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.comment-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.comments-section {
+  margin-top: 20px; /* Space above comments section */
+}
+
+.comments-section ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.comments-section li {
+  margin: 5px 0; /* Space between comments */
+  padding: 10px; /* Padding for comments */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.video-actions {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.video-input {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.video-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.video-table th, .video-table td {
+  border: 1px solid #ccc; /* Border for table cells */
+  padding: 10px; /* Padding for table cells */
+  text-align: left; /* Align text to the left */
+  border-radius: 5px; /* Rounded corners for table cells */
+}
+
+.video-table th {
+  background-color: #007bff; /* Header background color */
+  color: white; /* Header text color */
+}
+
+.video-table tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.edit-button, .delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px; /* Space between buttons */
+}
+
+.edit-button {
+  color: orange; /* Color for edit button */
+}
+
+.delete-button {
+  color: red; /* Color for delete button */
+}

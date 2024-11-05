@@ -1,0 +1,98 @@
+/* Dashboard.css */
+body {
+  font-family: 'Roboto', sans-serif; /* Apply Roboto font to the body */
+  background-color: #f4f7fa; /* Light background for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  padding: 40px; /* Increased padding for the container */
+  max-width: 1200px; /* Center the dashboard */
+  margin: auto;
+  background: white; /* White background for the dashboard */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif; /* Ensure headings use Roboto */
+}
+
+h2 {
+  margin-bottom: 20px; /* Space below the main heading */
+}
+
+h3 {
+  margin: 20px 0; /* Space above and below subheadings */
+}
+
+.statistics {
+  display: flex; /* Use flexbox for better layout */
+  flex-wrap: wrap; /* Allow items to wrap */
+  gap: 20px; /* Space between stat cards */
+}
+
+.stat-card {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Increased padding inside stat cards */
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+  border: 1px solid #ccc;
+  margin: 10px 0; /* Space above and below each stat card */
+  flex: 1 1 calc(25% - 20px); /* Responsive width with gap consideration */
+}
+
+.stat-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333; /* Darker text for better readability */
+}
+
+.stat-card p {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  color: #007bff; /* Primary color for numbers */
+}
+
+.comments-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px; /* Space above comments list */
+}
+
+.comment-item {
+  background-color: #f8f9fa; /* Light background for comments */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px 0; /* Increased padding for comment items */
+  margin-bottom: 15px; /* Space below each comment */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.2s; /* Smooth background change */
+  border-bottom: 1px solid #eee;
+}
+
+.comment-item:hover {
+  background-color: #e9ecef; /* Slightly darker on hover */
+}
+
+.comment-item:last-child {
+  border-bottom: none; /* Remove border for the last comment */
+}
+
+.comment-item strong {
+  display: block;
+  color: #333; /* Darker text for names */
+}
+
+.comment-item span {
+  font-size: 0.9em;
+  color: #6c757d; /* Muted color for timestamps */
+}

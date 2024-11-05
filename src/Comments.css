@@ -1,0 +1,74 @@
+/* Comments.css */
+.comments-container {
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 600px; /* Limit width for better readability */
+  margin: auto; /* Center the container */
+}
+
+h3 {
+  color: #333; /* Dark text for headings */
+  margin-bottom: 15px; /* Space below heading */
+}
+
+.new-comment-form {
+  margin-bottom: 15px; /* Space below form */
+}
+
+.new-comment-form textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for textarea */
+  border: 1px solid #ced4da; /* Border for textarea */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 10px; /* Space below textarea */
+  font-size: 1em; /* Font size */
+  color: #333; /* Dark text */
+}
+
+.new-comment-form button {
+  padding: 8px 12px;
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  margin-right: 10px; /* Space between buttons */
+}
+
+.new-comment-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.toggle-comment-form {
+  padding: 10px 15px;
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  margin-bottom: 15px; /* Space below button */
+  display: block; /* Block display for full width */
+  text-align: center; /* Center text */
+}
+
+.comment-item {
+  margin-bottom: 10px; /* Space between comments */
+  padding: 10px;
+  border: 1px solid #dee2e6; /* Border for each comment */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f8f9fa; /* Light background for comments */
+}
+
+.remove-comment-button {
+  background: none; /* No background */
+  border: none; /* No border */
+  color: #dc3545; /* Red color for delete */
+  cursor: pointer; /* Pointer cursor */
+  margin-left: 10px; /* Space between comment and button */
+}
+
+.remove-comment-button:hover {
+  text-decoration: underline; /* Underline on hover */
+}

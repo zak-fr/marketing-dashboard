@@ -1,0 +1,83 @@
+/* Campaigns.css */
+.campaigns-container {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for better contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 800px; /* Limit width for better readability */
+  margin: auto; /* Center the container */
+}
+
+.page-title {
+  font-size: 24px; /* Larger title */
+  margin-bottom: 20px; /* Space below title */
+  text-align: center; /* Center the title */
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between; /* Space between inputs and button */
+  margin-bottom: 20px; /* Space below input group */
+}
+
+.input-field {
+  padding: 10px; /* Padding for inputs */
+  border: 1px solid #dee2e6; /* Border for inputs */
+  border-radius: 4px; /* Rounded corners */
+  flex: 1; /* Allow inputs to grow */
+  margin-right: 10px; /* Space between inputs */
+}
+
+.upload-button {
+  padding: 10px 15px; /* Padding for button */
+  background-color: #007bff; /* Blue color */
+  color: #ffffff; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background 0.3s; /* Smooth background transition */
+}
+
+.upload-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.campaigns-header {
+  font-size: 20px; /* Header size */
+  margin-top: 30px; /* Space above header */
+  margin-bottom: 10px; /* Space below header */
+}
+
+.campaigns-table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 20px; /* Space above the table */
+}
+
+.campaigns-table th, .campaigns-table td {
+  border: 1px solid #dee2e6; /* Border for table cells */
+  padding: 12px; /* Padding for table cells */
+  text-align: left; /* Align text to the left */
+}
+
+.campaigns-table th {
+  background-color: #343a40; /* Dark header background color */
+  color: white; /* Header text color */
+}
+
+.campaigns-table tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.comments-header {
+  font-size: 20px; /* Header size */
+  margin-top: 30px; /* Space above header */
+}
+
+.comments-section {
+  margin-top: 10px; /* Space above comments section */
+  padding: 10px; /* Padding for comments section */
+  background-color: #ffffff; /* White background for comments */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
